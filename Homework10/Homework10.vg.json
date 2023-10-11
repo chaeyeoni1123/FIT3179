@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Life Expectancy in 2019" },
+    "width": 1000,
+    "height": 600,
+    "projection": {"type": "equalEarth"},
+    "data": {
+        "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "params": [
+        {
+            "name": "Gender_select",
+            "value": "Male",
+            "bind": {
+                "input": "select",
+                "options": ["Male", "Female"],
+                "name": "Select Gender : "
+            }
+        }
+    ],
+
+    "layer":[
+
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/lifeExpectancyAtBirth.csv"
+            },
+
+            "transform": [
+                {
+                    "lookup": "Country",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "ne_110m_admin_0_countries"
+                            }
+                        },
+                        "key": "properties.NAME"
+                    },
+                    "as": "map"
+                },
+                {"filter": "datum.Year == 2019 && datum.Gender == Gender_select"}
+            ],
+            "mark": {"type": "geoshape"},
+            "encoding": {
+                "shape": {"field": "map", "type": "geojson"},
+                "color": {
+                    "field": "Expectancy",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "threshold",
+                        "domain": [25, 50, 75],
+                        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                    }
+                },
+                "tooltip": [
+                    {"field": "Country", "type": "nominal"},
+                    {"field": "Expectancy", "type": "quantitative", "title": "Life Expectancy"}
+                ]
+            }
+        }
+    ]
+}
+
+
