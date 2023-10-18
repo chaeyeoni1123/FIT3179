@@ -1,0 +1,469 @@
+﻿Classification,Type,Cause,Male,Female
+Low income,,All,"482,255","415,694"
+Low income,Communicable,Tuberculosis,"10,242","8,602"
+Low income,Communicable,STDs excluding HIV,"4,978","2,702"
+Low income,Communicable,HIV/AIDS,"11,244","10,987"
+Low income,Communicable,Diarrhoeal diseases,"60,816","48,745"
+Low income,Communicable,Childhood-cluster diseases,"64,050","58,088"
+Low income,Communicable,Meningitis,"14,413","11,407"
+Low income,Communicable,Encephalitis,866,748
+Low income,Communicable,Hepatitis,792,447
+Low income,Communicable,Parasitic and vector diseases,"66,118","73,524"
+Low income,Communicable,Intestinal nematode infections,256,197
+Low income,Communicable,Leprosy,0,0
+Low income,Communicable,Other infectious diseases,"10,542","7,406"
+Low income,Communicable,Lower respiratory infections,"100,626","79,856"
+Low income,Communicable,Upper respiratory infections,"1,102",658
+Low income,Communicable,Otitis media,25,9
+Low income,Communicable,Preterm birth complications,"12,284","9,229"
+Low income,Communicable,Birth asphyxia and birth trauma,"10,528","8,072"
+Low income,Communicable,Neonatal sepsis and infections,0,0
+Low income,Communicable,Other neonatal conditions,"4,809","3,393"
+Low income,Communicable,Protein-energy malnutrition,"18,798","15,752"
+Low income,Communicable,Iodine deficiency,0,0
+Low income,Communicable,Vitamin A deficiency,0,0
+Low income,Communicable,Iron-deficiency anaemia,0,0
+Low income,Communicable,Other nutritional deficiencies,213,217
+Low income,Noncommunicable,Mouth and oropharynx cancers,0,0
+Low income,Noncommunicable,Oesophagus cancer,0,0
+Low income,Noncommunicable,Stomach cancer,0,0
+Low income,Noncommunicable,Colon and rectum cancers,0,0
+Low income,Noncommunicable,Liver cancer,178,233
+Low income,Noncommunicable,Pancreas cancer,0,0
+Low income,Noncommunicable,"Trachea, bronchus, lung cancers",0,0
+Low income,Noncommunicable,Melanoma and other skin cancers,3,1
+Low income,Noncommunicable,Breast cancer,0,0
+Low income,Noncommunicable,Cervix uteri cancer,0,0
+Low income,Noncommunicable,Corpus uteri cancer,0,0
+Low income,Noncommunicable,Ovary cancer,0,0
+Low income,Noncommunicable,Prostate cancer,0,0
+Low income,Noncommunicable,Testicular cancer,7,0
+Low income,Noncommunicable,Kidney cancer,71,109
+Low income,Noncommunicable,Bladder cancer,0,0
+Low income,Noncommunicable,Brain and nervous system cancers,192,165
+Low income,Noncommunicable,Gallbladder and biliary tract cancer,0,0
+Low income,Noncommunicable,Larynx cancer,0,0
+Low income,Noncommunicable,Thyroid cancer,0,0
+Low income,Noncommunicable,Mesothelioma,0,0
+Low income,Noncommunicable,"Lymphomas, multiple myeloma",97,49
+Low income,Noncommunicable,Leukaemia,554,529
+Low income,Noncommunicable,Other malignant neoplasms,628,519
+Low income,Noncommunicable,Thalassaemias,384,328
+Low income,Noncommunicable,Sickle cell disorders and trait,"3,445","2,571"
+Low income,Noncommunicable,Other haemoglobinopathies and haemolytic anaemias,107,49
+Low income,Noncommunicable,"Other endocrine, blood and immune disorders","1,421","1,049"
+Low income,Noncommunicable,Depressive disorders,0,0
+Low income,Noncommunicable,Bipolar disorder,0,0
+Low income,Noncommunicable,Schizophrenia,0,0
+Low income,Noncommunicable,Alcohol use disorders,0,0
+Low income,Noncommunicable,Drug use disorders,0,0
+Low income,Noncommunicable,Anxiety disorders,0,0
+Low income,Noncommunicable,Eating disorders,0,0
+Low income,Noncommunicable,Autism and Asperger syndrome,0,0
+Low income,Noncommunicable,Childhood behavioural disorders,0,0
+Low income,Noncommunicable,Idiopathic intellectual disability,0,0
+Low income,Noncommunicable,Other mental and behavioural disorders,0,0
+Low income,Noncommunicable,Alzheimer disease and other dementias,0,0
+Low income,Noncommunicable,Parkinson disease,0,0
+Low income,Noncommunicable,Epilepsy,"1,470","1,021"
+Low income,Noncommunicable,Multiple sclerosis,0,0
+Low income,Noncommunicable,Migraine,0,0
+Low income,Noncommunicable,Non-migraine headache,0,0
+Low income,Noncommunicable,Other neurological conditions,591,279
+Low income,Noncommunicable,Rheumatic heart disease,265,259
+Low income,Noncommunicable,Hypertensive heart disease,0,0
+Low income,Noncommunicable,Ischaemic heart disease,0,0
+Low income,Noncommunicable,Stroke,"1,261","1,050"
+Low income,Noncommunicable,"Cardiomyopathy, myocarditis, endocarditis","1,187","1,193"
+Low income,Noncommunicable,Other circulatory diseases,992,"1,132"
+Low income,Noncommunicable,Chronic obstructive pulmonary disease,218,376
+Low income,Noncommunicable,Asthma,"1,147","1,512"
+Low income,Noncommunicable,Other respiratory diseases,200,350
+Low income,Noncommunicable,Peptic ulcer disease,186,272
+Low income,Noncommunicable,Cirrhosis of the liver,"1,375","1,271"
+Low income,Noncommunicable,Appendicitis,295,223
+Low income,Noncommunicable,Gastritis and duodenitis,99,19
+Low income,Noncommunicable,Paralytic ileus and intestinal obstruction,"2,297","1,734"
+Low income,Noncommunicable,Inflammatory bowel disease,87,117
+Low income,Noncommunicable,Gallbladder and biliary diseases,55,136
+Low income,Noncommunicable,Pancreatitis,16,42
+Low income,Noncommunicable,Other digestive diseases,939,582
+Low income,Noncommunicable,Kidney diseases,"1,445","1,563"
+Low income,Noncommunicable,Benign prostatic hyperplasia,0,0
+Low income,Noncommunicable,Urolithiasis,1,2
+Low income,Noncommunicable,Other urinary diseases,435,357
+Low income,Noncommunicable,Infertility,0,0
+Low income,Noncommunicable,Gynecological diseases,0,0
+Low income,Noncommunicable,Rheumatoid arthritis,0,0
+Low income,Noncommunicable,Osteoarthritis,0,0
+Low income,Noncommunicable,Gout,0,0
+Low income,Noncommunicable,Back and neck pain,0,0
+Low income,Noncommunicable,Other musculoskeletal disorders,0,0
+Low income,Noncommunicable,Neural tube defects,"3,874","4,773"
+Low income,Noncommunicable,Cleft lip and cleft palate,121,118
+Low income,Noncommunicable,Down syndrome,739,802
+Low income,Noncommunicable,Congenital heart anomalies,"6,883","4,065"
+Low income,Noncommunicable,Other chromosomal anomalies,688,665
+Low income,Noncommunicable,Other congenital anomalies,"8,317","5,549"
+Low income,Injuries,Road injury,"10,213","8,047"
+Low income,Injuries,Poisonings,"3,204","2,652"
+Low income,Injuries,Falls,"1,657","1,167"
+Low income,Injuries,"Fire, heat and hot substances","3,942","3,933"
+Low income,Injuries,Drowning,"6,602","5,383"
+Low income,Injuries,Exposure to mechanical forces,"2,084","2,012"
+Low income,Injuries,Natural disasters,66,67
+Low income,Injuries,Other unintentional injuries,"10,544","8,957"
+Low income,Injuries,Self-harm,0,0
+Low income,Injuries,Interpersonal violence,"1,163",879
+Low income,Injuries,Collective violence and legal intervention,"2,974","3,427"
+Lower middle income,,All,"822,797","729,186"
+Lower middle income,Communicable,Tuberculosis,"53,041","43,867"
+Lower middle income,Communicable,STDs excluding HIV,"6,610","3,498"
+Lower middle income,Communicable,HIV/AIDS,"17,729","17,129"
+Lower middle income,Communicable,Diarrhoeal diseases,"123,960","110,835"
+Lower middle income,Communicable,Childhood-cluster diseases,"57,757","58,215"
+Lower middle income,Communicable,Meningitis,"22,198","19,518"
+Lower middle income,Communicable,Encephalitis,"3,568","3,383"
+Lower middle income,Communicable,Hepatitis,"4,076","3,197"
+Lower middle income,Communicable,Parasitic and vector diseases,"68,324","70,910"
+Lower middle income,Communicable,Intestinal nematode infections,439,363
+Lower middle income,Communicable,Leprosy,0,0
+Lower middle income,Communicable,Other infectious diseases,"28,551","21,695"
+Lower middle income,Communicable,Lower respiratory infections,"192,386","163,392"
+Lower middle income,Communicable,Upper respiratory infections,834,576
+Lower middle income,Communicable,Otitis media,10,8
+Lower middle income,Communicable,Preterm birth complications,"24,508","19,964"
+Lower middle income,Communicable,Birth asphyxia and birth trauma,"20,253","16,647"
+Lower middle income,Communicable,Neonatal sepsis and infections,0,0
+Lower middle income,Communicable,Other neonatal conditions,"7,260","5,015"
+Lower middle income,Communicable,Protein-energy malnutrition,"18,037","16,647"
+Lower middle income,Communicable,Iodine deficiency,0,0
+Lower middle income,Communicable,Vitamin A deficiency,0,0
+Lower middle income,Communicable,Iron-deficiency anaemia,0,0
+Lower middle income,Communicable,Other nutritional deficiencies,977,"1,327"
+Lower middle income,Noncommunicable,Mouth and oropharynx cancers,0,0
+Lower middle income,Noncommunicable,Oesophagus cancer,0,0
+Lower middle income,Noncommunicable,Stomach cancer,0,0
+Lower middle income,Noncommunicable,Colon and rectum cancers,0,0
+Lower middle income,Noncommunicable,Liver cancer,363,372
+Lower middle income,Noncommunicable,Pancreas cancer,0,0
+Lower middle income,Noncommunicable,"Trachea, bronchus, lung cancers",0,0
+Lower middle income,Noncommunicable,Melanoma and other skin cancers,7,6
+Lower middle income,Noncommunicable,Breast cancer,0,0
+Lower middle income,Noncommunicable,Cervix uteri cancer,0,0
+Lower middle income,Noncommunicable,Corpus uteri cancer,0,0
+Lower middle income,Noncommunicable,Ovary cancer,0,0
+Lower middle income,Noncommunicable,Prostate cancer,0,0
+Lower middle income,Noncommunicable,Testicular cancer,79,0
+Lower middle income,Noncommunicable,Kidney cancer,279,219
+Lower middle income,Noncommunicable,Bladder cancer,0,0
+Lower middle income,Noncommunicable,Brain and nervous system cancers,"1,939","1,396"
+Lower middle income,Noncommunicable,Gallbladder and biliary tract cancer,0,0
+Lower middle income,Noncommunicable,Larynx cancer,0,0
+Lower middle income,Noncommunicable,Thyroid cancer,0,0
+Lower middle income,Noncommunicable,Mesothelioma,0,0
+Lower middle income,Noncommunicable,"Lymphomas, multiple myeloma",320,195
+Lower middle income,Noncommunicable,Leukaemia,"2,243","1,823"
+Lower middle income,Noncommunicable,Other malignant neoplasms,"1,692","1,398"
+Lower middle income,Noncommunicable,Thalassaemias,"1,317","1,288"
+Lower middle income,Noncommunicable,Sickle cell disorders and trait,"4,069","6,414"
+Lower middle income,Noncommunicable,Other haemoglobinopathies and haemolytic anaemias,100,50
+Lower middle income,Noncommunicable,"Other endocrine, blood and immune disorders","2,882","2,202"
+Lower middle income,Noncommunicable,Depressive disorders,0,0
+Lower middle income,Noncommunicable,Bipolar disorder,0,0
+Lower middle income,Noncommunicable,Schizophrenia,0,0
+Lower middle income,Noncommunicable,Alcohol use disorders,0,0
+Lower middle income,Noncommunicable,Drug use disorders,0,0
+Lower middle income,Noncommunicable,Anxiety disorders,0,0
+Lower middle income,Noncommunicable,Eating disorders,0,0
+Lower middle income,Noncommunicable,Autism and Asperger syndrome,0,0
+Lower middle income,Noncommunicable,Childhood behavioural disorders,0,0
+Lower middle income,Noncommunicable,Idiopathic intellectual disability,0,0
+Lower middle income,Noncommunicable,Other mental and behavioural disorders,0,0
+Lower middle income,Noncommunicable,Alzheimer disease and other dementias,0,0
+Lower middle income,Noncommunicable,Parkinson disease,0,0
+Lower middle income,Noncommunicable,Epilepsy,"2,844","2,347"
+Lower middle income,Noncommunicable,Multiple sclerosis,0,0
+Lower middle income,Noncommunicable,Migraine,0,0
+Lower middle income,Noncommunicable,Non-migraine headache,0,0
+Lower middle income,Noncommunicable,Other neurological conditions,"1,323",914
+Lower middle income,Noncommunicable,Rheumatic heart disease,606,730
+Lower middle income,Noncommunicable,Hypertensive heart disease,0,0
+Lower middle income,Noncommunicable,Ischaemic heart disease,0,0
+Lower middle income,Noncommunicable,Stroke,"3,052","2,202"
+Lower middle income,Noncommunicable,"Cardiomyopathy, myocarditis, endocarditis","1,823","1,396"
+Lower middle income,Noncommunicable,Other circulatory diseases,"1,637","2,015"
+Lower middle income,Noncommunicable,Chronic obstructive pulmonary disease,185,346
+Lower middle income,Noncommunicable,Asthma,"1,641","1,507"
+Lower middle income,Noncommunicable,Other respiratory diseases,386,495
+Lower middle income,Noncommunicable,Peptic ulcer disease,214,481
+Lower middle income,Noncommunicable,Cirrhosis of the liver,"2,667","2,448"
+Lower middle income,Noncommunicable,Appendicitis,219,375
+Lower middle income,Noncommunicable,Gastritis and duodenitis,284,18
+Lower middle income,Noncommunicable,Paralytic ileus and intestinal obstruction,"5,052","3,800"
+Lower middle income,Noncommunicable,Inflammatory bowel disease,143,211
+Lower middle income,Noncommunicable,Gallbladder and biliary diseases,66,271
+Lower middle income,Noncommunicable,Pancreatitis,27,112
+Lower middle income,Noncommunicable,Other digestive diseases,"1,324",582
+Lower middle income,Noncommunicable,Kidney diseases,"2,806","2,854"
+Lower middle income,Noncommunicable,Benign prostatic hyperplasia,0,0
+Lower middle income,Noncommunicable,Urolithiasis,4,6
+Lower middle income,Noncommunicable,Other urinary diseases,"1,847","1,636"
+Lower middle income,Noncommunicable,Infertility,0,0
+Lower middle income,Noncommunicable,Gynecological diseases,0,0
+Lower middle income,Noncommunicable,Rheumatoid arthritis,0,0
+Lower middle income,Noncommunicable,Osteoarthritis,0,0
+Lower middle income,Noncommunicable,Gout,0,0
+Lower middle income,Noncommunicable,Back and neck pain,0,0
+Lower middle income,Noncommunicable,Other musculoskeletal disorders,0,0
+Lower middle income,Noncommunicable,Neural tube defects,"7,767","8,437"
+Lower middle income,Noncommunicable,Cleft lip and cleft palate,259,190
+Lower middle income,Noncommunicable,Down syndrome,"1,604","1,737"
+Lower middle income,Noncommunicable,Congenital heart anomalies,"19,481","14,954"
+Lower middle income,Noncommunicable,Other chromosomal anomalies,"1,432","1,414"
+Lower middle income,Noncommunicable,Other congenital anomalies,"17,636","13,166"
+Lower middle income,Injuries,Road injury,"12,506","9,994"
+Lower middle income,Injuries,Poisonings,"5,348","4,933"
+Lower middle income,Injuries,Falls,"5,299","4,930"
+Lower middle income,Injuries,"Fire, heat and hot substances","5,893","7,182"
+Lower middle income,Injuries,Drowning,"14,899","12,338"
+Lower middle income,Injuries,Exposure to mechanical forces,"3,584","3,348"
+Lower middle income,Injuries,Natural disasters,151,146
+Lower middle income,Injuries,Other unintentional injuries,"20,358","18,386"
+Lower middle income,Injuries,Self-harm,0,0
+Lower middle income,Injuries,Interpersonal violence,"2,045","2,203"
+Lower middle income,Injuries,Collective violence and legal intervention,367,502
+Upper middle income,,All,"146,440","115,927"
+Upper middle income,Communicable,Tuberculosis,"9,378","9,077"
+Upper middle income,Communicable,STDs excluding HIV,"1,249",762
+Upper middle income,Communicable,HIV/AIDS,"3,765","3,608"
+Upper middle income,Communicable,Diarrhoeal diseases,"11,347","8,641"
+Upper middle income,Communicable,Childhood-cluster diseases,"3,542","3,085"
+Upper middle income,Communicable,Meningitis,"1,876","1,363"
+Upper middle income,Communicable,Encephalitis,981,792
+Upper middle income,Communicable,Hepatitis,169,114
+Upper middle income,Communicable,Parasitic and vector diseases,"2,076","2,053"
+Upper middle income,Communicable,Intestinal nematode infections,14,10
+Upper middle income,Communicable,Leprosy,0,0
+Upper middle income,Communicable,Other infectious diseases,"1,275",911
+Upper middle income,Communicable,Lower respiratory infections,"29,034","22,078"
+Upper middle income,Communicable,Upper respiratory infections,191,136
+Upper middle income,Communicable,Otitis media,3,2
+Upper middle income,Communicable,Preterm birth complications,"5,738","4,425"
+Upper middle income,Communicable,Birth asphyxia and birth trauma,"2,331","1,730"
+Upper middle income,Communicable,Neonatal sepsis and infections,176,144
+Upper middle income,Communicable,Other neonatal conditions,"2,723","1,965"
+Upper middle income,Communicable,Protein-energy malnutrition,"2,717","2,264"
+Upper middle income,Communicable,Iodine deficiency,0,0
+Upper middle income,Communicable,Vitamin A deficiency,0,0
+Upper middle income,Communicable,Iron-deficiency anaemia,0,0
+Upper middle income,Communicable,Other nutritional deficiencies,152,120
+Upper middle income,Noncommunicable,Mouth and oropharynx cancers,0,0
+Upper middle income,Noncommunicable,Oesophagus cancer,0,0
+Upper middle income,Noncommunicable,Stomach cancer,0,0
+Upper middle income,Noncommunicable,Colon and rectum cancers,0,0
+Upper middle income,Noncommunicable,Liver cancer,221,173
+Upper middle income,Noncommunicable,Pancreas cancer,0,0
+Upper middle income,Noncommunicable,"Trachea, bronchus, lung cancers",0,0
+Upper middle income,Noncommunicable,Melanoma and other skin cancers,9,7
+Upper middle income,Noncommunicable,Breast cancer,0,0
+Upper middle income,Noncommunicable,Cervix uteri cancer,0,0
+Upper middle income,Noncommunicable,Corpus uteri cancer,0,0
+Upper middle income,Noncommunicable,Ovary cancer,0,0
+Upper middle income,Noncommunicable,Prostate cancer,0,0
+Upper middle income,Noncommunicable,Testicular cancer,28,0
+Upper middle income,Noncommunicable,Kidney cancer,231,207
+Upper middle income,Noncommunicable,Bladder cancer,0,0
+Upper middle income,Noncommunicable,Brain and nervous system cancers,"1,025",897
+Upper middle income,Noncommunicable,Gallbladder and biliary tract cancer,0,0
+Upper middle income,Noncommunicable,Larynx cancer,0,0
+Upper middle income,Noncommunicable,Thyroid cancer,0,0
+Upper middle income,Noncommunicable,Mesothelioma,0,0
+Upper middle income,Noncommunicable,"Lymphomas, multiple myeloma",227,159
+Upper middle income,Noncommunicable,Leukaemia,"2,246","1,847"
+Upper middle income,Noncommunicable,Other malignant neoplasms,"1,124","1,025"
+Upper middle income,Noncommunicable,Thalassaemias,434,349
+Upper middle income,Noncommunicable,Sickle cell disorders and trait,117,108
+Upper middle income,Noncommunicable,Other haemoglobinopathies and haemolytic anaemias,67,33
+Upper middle income,Noncommunicable,"Other endocrine, blood and immune disorders","2,101","1,575"
+Upper middle income,Noncommunicable,Depressive disorders,0,0
+Upper middle income,Noncommunicable,Bipolar disorder,0,0
+Upper middle income,Noncommunicable,Schizophrenia,0,0
+Upper middle income,Noncommunicable,Alcohol use disorders,0,0
+Upper middle income,Noncommunicable,Drug use disorders,0,0
+Upper middle income,Noncommunicable,Anxiety disorders,0,0
+Upper middle income,Noncommunicable,Eating disorders,0,0
+Upper middle income,Noncommunicable,Autism and Asperger syndrome,0,0
+Upper middle income,Noncommunicable,Childhood behavioural disorders,0,0
+Upper middle income,Noncommunicable,Idiopathic intellectual disability,0,0
+Upper middle income,Noncommunicable,Other mental and behavioural disorders,0,0
+Upper middle income,Noncommunicable,Alzheimer disease and other dementias,0,0
+Upper middle income,Noncommunicable,Parkinson disease,0,0
+Upper middle income,Noncommunicable,Epilepsy,802,599
+Upper middle income,Noncommunicable,Multiple sclerosis,0,0
+Upper middle income,Noncommunicable,Migraine,0,0
+Upper middle income,Noncommunicable,Non-migraine headache,0,0
+Upper middle income,Noncommunicable,Other neurological conditions,688,631
+Upper middle income,Noncommunicable,Rheumatic heart disease,37,37
+Upper middle income,Noncommunicable,Hypertensive heart disease,0,0
+Upper middle income,Noncommunicable,Ischaemic heart disease,0,0
+Upper middle income,Noncommunicable,Stroke,552,374
+Upper middle income,Noncommunicable,"Cardiomyopathy, myocarditis, endocarditis","1,387","1,151"
+Upper middle income,Noncommunicable,Other circulatory diseases,510,454
+Upper middle income,Noncommunicable,Chronic obstructive pulmonary disease,75,75
+Upper middle income,Noncommunicable,Asthma,286,316
+Upper middle income,Noncommunicable,Other respiratory diseases,275,227
+Upper middle income,Noncommunicable,Peptic ulcer disease,25,21
+Upper middle income,Noncommunicable,Cirrhosis of the liver,447,368
+Upper middle income,Noncommunicable,Appendicitis,79,58
+Upper middle income,Noncommunicable,Gastritis and duodenitis,22,17
+Upper middle income,Noncommunicable,Paralytic ileus and intestinal obstruction,"2,376","1,543"
+Upper middle income,Noncommunicable,Inflammatory bowel disease,87,66
+Upper middle income,Noncommunicable,Gallbladder and biliary diseases,22,26
+Upper middle income,Noncommunicable,Pancreatitis,12,8
+Upper middle income,Noncommunicable,Other digestive diseases,614,260
+Upper middle income,Noncommunicable,Kidney diseases,996,783
+Upper middle income,Noncommunicable,Benign prostatic hyperplasia,0,0
+Upper middle income,Noncommunicable,Urolithiasis,2,1
+Upper middle income,Noncommunicable,Other urinary diseases,295,233
+Upper middle income,Noncommunicable,Infertility,0,0
+Upper middle income,Noncommunicable,Gynecological diseases,0,0
+Upper middle income,Noncommunicable,Rheumatoid arthritis,0,0
+Upper middle income,Noncommunicable,Osteoarthritis,0,0
+Upper middle income,Noncommunicable,Gout,0,0
+Upper middle income,Noncommunicable,Back and neck pain,0,0
+Upper middle income,Noncommunicable,Other musculoskeletal disorders,0,0
+Upper middle income,Noncommunicable,Neural tube defects,"1,763","2,170"
+Upper middle income,Noncommunicable,Cleft lip and cleft palate,96,74
+Upper middle income,Noncommunicable,Down syndrome,"1,314",968
+Upper middle income,Noncommunicable,Congenital heart anomalies,"13,713","10,355"
+Upper middle income,Noncommunicable,Other chromosomal anomalies,632,719
+Upper middle income,Noncommunicable,Other congenital anomalies,"7,596","5,403"
+Upper middle income,Injuries,Road injury,"4,148","3,186"
+Upper middle income,Injuries,Poisonings,745,642
+Upper middle income,Injuries,Falls,"1,685","1,222"
+Upper middle income,Injuries,"Fire, heat and hot substances",958,859
+Upper middle income,Injuries,Drowning,"4,314","2,581"
+Upper middle income,Injuries,Exposure to mechanical forces,976,"1,094"
+Upper middle income,Injuries,Natural disasters,44,43
+Upper middle income,Injuries,Other unintentional injuries,"6,908","5,615"
+Upper middle income,Injuries,Self-harm,0,0
+Upper middle income,Injuries,Interpersonal violence,"1,645","1,252"
+Upper middle income,Injuries,Collective violence and legal intervention,199,257
+High income,,All,"15,115","12,078"
+High income,Communicable,Tuberculosis,15,8
+High income,Communicable,STDs excluding HIV,15,10
+High income,Communicable,HIV/AIDS,31,28
+High income,Communicable,Diarrhoeal diseases,359,286
+High income,Communicable,Childhood-cluster diseases,61,58
+High income,Communicable,Meningitis,134,104
+High income,Communicable,Encephalitis,85,71
+High income,Communicable,Hepatitis,7,6
+High income,Communicable,Parasitic and vector diseases,6,9
+High income,Communicable,Intestinal nematode infections,0,0
+High income,Communicable,Leprosy,0,0
+High income,Communicable,Other infectious diseases,242,194
+High income,Communicable,Lower respiratory infections,"1,075",869
+High income,Communicable,Upper respiratory infections,30,17
+High income,Communicable,Otitis media,5,3
+High income,Communicable,Preterm birth complications,965,780
+High income,Communicable,Birth asphyxia and birth trauma,255,206
+High income,Communicable,Neonatal sepsis and infections,0,0
+High income,Communicable,Other neonatal conditions,363,291
+High income,Communicable,Protein-energy malnutrition,41,33
+High income,Communicable,Iodine deficiency,0,0
+High income,Communicable,Vitamin A deficiency,0,0
+High income,Communicable,Iron-deficiency anaemia,0,0
+High income,Communicable,Other nutritional deficiencies,8,7
+High income,Noncommunicable,Mouth and oropharynx cancers,0,0
+High income,Noncommunicable,Oesophagus cancer,0,0
+High income,Noncommunicable,Stomach cancer,0,0
+High income,Noncommunicable,Colon and rectum cancers,0,0
+High income,Noncommunicable,Liver cancer,33,27
+High income,Noncommunicable,Pancreas cancer,0,0
+High income,Noncommunicable,"Trachea, bronchus, lung cancers",0,0
+High income,Noncommunicable,Melanoma and other skin cancers,2,3
+High income,Noncommunicable,Breast cancer,0,0
+High income,Noncommunicable,Cervix uteri cancer,0,0
+High income,Noncommunicable,Corpus uteri cancer,0,0
+High income,Noncommunicable,Ovary cancer,0,0
+High income,Noncommunicable,Prostate cancer,0,0
+High income,Noncommunicable,Testicular cancer,1,0
+High income,Noncommunicable,Kidney cancer,28,25
+High income,Noncommunicable,Bladder cancer,0,0
+High income,Noncommunicable,Brain and nervous system cancers,229,194
+High income,Noncommunicable,Gallbladder and biliary tract cancer,0,0
+High income,Noncommunicable,Larynx cancer,0,0
+High income,Noncommunicable,Thyroid cancer,0,0
+High income,Noncommunicable,Mesothelioma,0,0
+High income,Noncommunicable,"Lymphomas, multiple myeloma",21,11
+High income,Noncommunicable,Leukaemia,269,225
+High income,Noncommunicable,Other malignant neoplasms,186,147
+High income,Noncommunicable,Thalassaemias,18,23
+High income,Noncommunicable,Sickle cell disorders and trait,17,15
+High income,Noncommunicable,Other haemoglobinopathies and haemolytic anaemias,4,2
+High income,Noncommunicable,"Other endocrine, blood and immune disorders",650,466
+High income,Noncommunicable,Depressive disorders,0,0
+High income,Noncommunicable,Bipolar disorder,0,0
+High income,Noncommunicable,Schizophrenia,0,0
+High income,Noncommunicable,Alcohol use disorders,0,0
+High income,Noncommunicable,Drug use disorders,0,0
+High income,Noncommunicable,Anxiety disorders,0,0
+High income,Noncommunicable,Eating disorders,0,0
+High income,Noncommunicable,Autism and Asperger syndrome,0,0
+High income,Noncommunicable,Childhood behavioural disorders,0,0
+High income,Noncommunicable,Idiopathic intellectual disability,0,0
+High income,Noncommunicable,Other mental and behavioural disorders,0,0
+High income,Noncommunicable,Alzheimer disease and other dementias,0,0
+High income,Noncommunicable,Parkinson disease,0,0
+High income,Noncommunicable,Epilepsy,118,103
+High income,Noncommunicable,Multiple sclerosis,0,0
+High income,Noncommunicable,Migraine,0,0
+High income,Noncommunicable,Non-migraine headache,0,0
+High income,Noncommunicable,Other neurological conditions,308,301
+High income,Noncommunicable,Rheumatic heart disease,5,5
+High income,Noncommunicable,Hypertensive heart disease,0,0
+High income,Noncommunicable,Ischaemic heart disease,0,0
+High income,Noncommunicable,Stroke,84,68
+High income,Noncommunicable,"Cardiomyopathy, myocarditis, endocarditis",207,185
+High income,Noncommunicable,Other circulatory diseases,112,114
+High income,Noncommunicable,Chronic obstructive pulmonary disease,12,11
+High income,Noncommunicable,Asthma,28,22
+High income,Noncommunicable,Other respiratory diseases,61,47
+High income,Noncommunicable,Peptic ulcer disease,2,2
+High income,Noncommunicable,Cirrhosis of the liver,30,26
+High income,Noncommunicable,Appendicitis,5,4
+High income,Noncommunicable,Gastritis and duodenitis,0,1
+High income,Noncommunicable,Paralytic ileus and intestinal obstruction,207,162
+High income,Noncommunicable,Inflammatory bowel disease,28,20
+High income,Noncommunicable,Gallbladder and biliary diseases,2,2
+High income,Noncommunicable,Pancreatitis,2,2
+High income,Noncommunicable,Other digestive diseases,50,31
+High income,Noncommunicable,Kidney diseases,105,86
+High income,Noncommunicable,Benign prostatic hyperplasia,0,0
+High income,Noncommunicable,Urolithiasis,0,0
+High income,Noncommunicable,Other urinary diseases,25,24
+High income,Noncommunicable,Infertility,0,0
+High income,Noncommunicable,Gynecological diseases,0,0
+High income,Noncommunicable,Rheumatoid arthritis,0,0
+High income,Noncommunicable,Osteoarthritis,0,0
+High income,Noncommunicable,Gout,0,0
+High income,Noncommunicable,Back and neck pain,0,0
+High income,Noncommunicable,Other musculoskeletal disorders,0,0
+High income,Noncommunicable,Neural tube defects,439,560
+High income,Noncommunicable,Cleft lip and cleft palate,2,2
+High income,Noncommunicable,Down syndrome,234,154
+High income,Noncommunicable,Congenital heart anomalies,"1,644","1,143"
+High income,Noncommunicable,Other chromosomal anomalies,552,608
+High income,Noncommunicable,Other congenital anomalies,"1,458","1,013"
+High income,Injuries,Road injury,460,376
+High income,Injuries,Poisonings,52,41
+High income,Injuries,Falls,158,110
+High income,Injuries,"Fire, heat and hot substances",157,141
+High income,Injuries,Drowning,446,271
+High income,Injuries,Exposure to mechanical forces,80,63
+High income,Injuries,Natural disasters,5,5
+High income,Injuries,Other unintentional injuries,"1,008",797
+High income,Injuries,Self-harm,0,0
+High income,Injuries,Interpersonal violence,422,395
+High income,Injuries,Collective violence and legal intervention,9,9
