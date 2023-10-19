@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "title": { "text": "Docters per 10k Population by Income Classification", "fontSize": 20 },
+    "data": {"url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/medicalDoctors.csv"},
+    "transform": [{
+        "lookup": "Country",
+        "from": {
+            "data": {"url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/worldbank_classification.csv"},
+            "key": "Country",
+            "fields": ["Group"]
+        }
+    },
+    {"filter": "datum.Year == 2008 && (datum.Group == 'Low income' || datum.Group == 'Lower middle income' || datum.Group == 'Upper middle income' || datum.Group == 'High income')"}],
+    "encoding": {
+        "theta": {"field": "Rate", "type": "quantitative", "aggregate": "mean", "stack": true}},
+    "layer": [
+        {"mark": {"type": "arc", "radius": 170, "radius2": 100},
+            "encoding": {
+                "color": {"field": "Group", "type": "nominal", "scale": {"range": ["#ecbdc4", "#7ca1cc", "#c8a2c8", "#fddf8e"]}, "title": "Income Classification"},
+                "tooltip": [
+                  {"field": "Group", "type": "nominal", "title": "Income Classification"},
+                  {"field": "mean_Rate", "type": "quantitative", "title": "Doctors per 10k Population"}
+              ]
+            }},
+        {
+            "mark": {"type": "text", "radius": 140, "stroke": "black", "fontSize": 11},
+            "encoding": {
+              "text": {
+                "type": "quantitative",
+                "field": "Rate",
+                "aggregate": "mean",
+                "format": ".1f"
+              },
+              "detail": {"field": "Group", "type": "nominal"}
+            }
+          },
+        {
+            "mark": {
+              "type": "text",
+              "align": "center",
+              "dx": 0,
+              "dy": 0,
+              "fontSize": 15
+            },
+            "encoding": {"text": {"value": "Number of Doctors (%)"}}
+          }
+    ]
+  }

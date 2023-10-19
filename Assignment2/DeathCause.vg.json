@@ -1,0 +1,87 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "The Rate of Type of Death Based on Income Classification", "fontSize": 20 },
+    "width": 600,
+    "height": 400,
+    "params": [
+      {
+          "name": "Type_select",
+          "value": "Show All",
+          "bind": {
+              "input": "select",
+              "options": ["Show All", "Communicable", "Noncommunicable", "Injuries"],
+              "name": "Select Type of Death : "
+          }
+      }
+  ],
+    "data": {"url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/Death_Cause.csv"},
+    "transform": [
+        {
+            "window": [{
+              "op": "rank",
+              "as": "rank"
+            }],
+            "groupby": ["Classification"],
+            "sort": [{ "field": "Rate", "order": "descending" }]
+          }, 
+          {
+            "filter": "datum.rank <= 10"
+          },
+          {"filter": "Type_select == 'Show All' ? datum.Type : datum.Type == Type_select"}
+    ],
+    "encoding": {
+        "x": {
+          "field": "Classification",
+          "type": "nominal",
+          "axis": { "titleFontSize": 18, "labelFontSize": 12, "labelAngle": 0 },
+          "title": "Income Classification"
+        },
+        "y": {
+          "field": "Rate",
+          "type": "quantitative",
+          "axis": { "titleFontSize": 18, "labelFontSize": 12 },
+          "aggregate": "sum",
+          "stack": "zero",
+          "title": "Death Rate (%)"
+        },
+        "tooltip": [
+          { "field": "Classification", "type": "nominal", "title": "Income Classification" },
+          { "field": "Type", "type": "nominal", "title": "Type of Death" },
+          { "field": "sum_Rate", "type": "quantitative", "title": "Total Rate"}
+        ]
+      },
+    "layer": [
+        {
+          "mark": "bar",
+          "encoding": {
+            "color": {
+                "field": "Type",
+                "type": "nominal",
+                "scale": {
+                  "domain": ["Communicable", "Noncommunicable", "Injuries"],
+                  "range": ["#ecbdc4", "#aec7e8", "#c7c7c7"]
+                },
+                "title": "Type of Death"
+              }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "stroke": "black",
+            "fontSize": 12,
+            "dy": 10
+          },
+          "encoding": {
+            "detail": {"type": "nominal", "field": "Type"},
+            "text": {
+                "type": "quantitative",
+                "aggregate": "sum",
+                "field": "Rate",
+                "format": ".1f"
+            }
+          }
+        }
+      ]
+    }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+<script src="vega_lite_vis.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<title>Assignment2</title>  
+</head>
+<body>
+<div class="titlepic">
+        <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcVmu3e%2FbtsyQcZWSls%2FtVYaJlK83Z3KGoTDi9ezZ0%2Fimg.png" alt="titlepic" style="width:1400px;height:400px;">
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <h1>Mortality Rate of Below Age of 5 from 2000 to 2019</h1>
+            <p>The visualization below shows the mortality rate of below age of 5 <span style="background-color: #fee7aa;">from 2000 to 2019</span>. 
+                As we can see from the data, it shows the mortality rate <span style="background-color: #fee7aa;">decreases over time</span>.</p>
+            <br>
+            <div class="vis">
+                <div id="geo_map">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-2-3">
+            <div id="bar_chart">
+            </div>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Mortality Rate of Below Age of 5 by Income Class</h1>
+            <p>The visualization shows the <span style="background-color: #fee7aa;">average mortality rate</span> of below age of 5 <span style="background-color: #fee7aa;">
+                    based on income class</span>. It shows that the higher income class, the lower the mortality rate, which means <span style="background-color: #fee7aa;">
+                    the relationship</span> between income class and the mortality rate of below age of 5 is <span style="background-color: #fee7aa;">negative</span>.</p>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-2-3">
+            <div id="stacked_bar_chart">
+            </div>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Death Rate of Below Age of 5 by Income Class</h1>
+            <p>The visualization shows the type of <span style="background-color: #fee7aa;">top 10 death caues</span> of below age of 5
+                <span style="background-color: #fee7aa;">based on income class</span>. <span style="background-color: #fee7aa;">Communicable</span> is the type that is 
+                <span style="background-color: #fee7aa;">able to spread</span> and non-communicable is not able to spread. It shows that 
+                <span style="background-color: #fee7aa;">low income and lower middle income countries</span> have <span style="background-color: #fee7aa;">high</span> 
+                death rate of <span style="background-color: #fee7aa;">communicable diseases</span> such as 'Parasitic and vector diseases' and 'Lower respiratory infections', 
+                which can be cured easily with high medical technologies. However, <span style="background-color: #fee7aa;">high income countries</span> have <span style="background-color: #fee7aa;">high non-communicable </span>
+                diseases' death rate such as cancer and diabetes, which is considered hard to be cured.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-2-3">
+            <div id="pie_chart">
+            </div>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Rate of Number of Doctors in 10,000 Population by Income Class</h1>
+            <p>This visualization shows the average rate of the <span style="background-color: #fee7aa;">number of doctors</span> in 10,000 population in <span style="background-color: #fee7aa;">each income class</span>.
+                As we can see from the chart, <span style="background-color: #fee7aa;">the higher income</span>, <span style="background-color: #fee7aa;">the higher rate of the number of doctors</span>. 
+                It is important to check the number of doctors, because as I said earlier, <span style="background-color: #fee7aa;">high medical technologies</span> 
+                is one of the factors that brings a <span style="background-color: #fee7aa;">decrease in the mortality rate</span> of below the age of 5.
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-2-3">
+            <div id="line_dot_chart">
+            </div>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Rate of Number of Nurse & Midwifery in 10,000 Population by Income Class from 2009 to 2017</h1>
+            <p>This visualization shows the average rate of the <span style="background-color: #fee7aa;">number of nurse and midwifery</span> in each income class over time. 
+                As we can see from the line connected between those income classes, <span style="background-color: #fee7aa;">higher income countries</span> 
+                have <span style="background-color: #fee7aa;">higher rate of the number of nurse and midwifery</span>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <h1>Conclusion</h1>
+            <p>These visualizations show that the mortality rate of below the age of 5 and income classes of countries have <span style="background-color: #fee7aa;">negative relationship</span>, 
+                which means <span style="background-color: #fee7aa;">higher income class</span> have <span style="background-color: #fee7aa;">lower mortality rate</span>. 
+                Also from the visualizations, we found that there are some medical factors for the relationship. It is trying to say that 
+                <span style="background-color: #fee7aa;">income class</span> must have <span style="background-color: #fee7aa;">positive relationship</span> 
+                with those medical factors, because higher income class countries lead to high medical technologies. Then, those countries that have 
+                <span style="background-color: #fee7aa;">high medical technologies</span> seem to have <span style="background-color: #fee7aa;">lower mortality rate</span> 
+                of below the age of 5, which means <span style="background-color: #fee7aa;">income class has negative relationship with the mortality rate</span>.</p>
+</body>
+</html>

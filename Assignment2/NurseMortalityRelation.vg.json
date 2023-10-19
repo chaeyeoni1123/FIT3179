@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "params": [
+      {
+          "name": "Year_select",
+          "value": "2009",
+          "bind": {
+              "input": "range",
+              "min": 2009,
+              "max": 2017,
+              "step": 1,
+              "name": "Select Year : "
+          }
+      }
+  ],
+    "title": { "text": "Nurse & Midwifery per 10k Population by Income Classification", "fontSize": 20 },
+    "data": {"url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/nursingAndMidwife.csv"},
+    "transform": [{
+        "lookup": "Country",
+        "from": {
+            "data": {"url": "https://raw.githubusercontent.com/chaeyeoni1123/FIT3179/main/worldbank_classification.csv"},
+            "key": "Country",
+            "fields": ["Group"]
+        }
+    },
+    {"filter": "datum.Year == Year_select && (datum.Group == 'Low income' || datum.Group == 'Lower middle income' || datum.Group == 'Upper middle income' || datum.Group == 'High income')"}
+    ],
+    "encoding": {
+      "x": {"field": "Group", "type": "nominal", "axis": {"titleFontSize": 18, "labelFontSize": 12, "labelAngle": 0}, "title": "Income Classification", "sort": "-y"},
+      "y": {"field": "Rate", "type": "quantitative", "aggregate": "mean", "axis": {"titleFontSize": 18, "labelFontSize": 12}, "title": "Nurse & Midwifery per 10k Population"},
+      "tooltip": [
+        { "field": "Group", "type": "nominal", "title": "Income Classification" },
+        { "field": "mean_Rate", "type": "quantitative", "title": "Nurse & Midwifery per 10k"}
+      ]
+    },
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "detail": {
+            "field": "Year",
+            "type": "ordinal"
+          },
+          "color": {"value": "#aec7e8"}
+        }
+      },
+      {
+        "mark": "point",
+        "encoding": {
+          "color": {"value": "#48578E"}
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "center",
+          "stroke": "black",
+          "fontSize": 12,
+          "dy": -15
+        },
+        "encoding": {
+          "detail": {"type": "nominal", "field": "Type"},
+          "text": {
+              "type": "quantitative",
+              "aggregate": "mean",
+              "field": "Rate",
+              "format": ".1f"
+          }
+        }
+      }
+    ]
+  }
